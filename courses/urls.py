@@ -68,4 +68,5 @@ urlpatterns = [
         views.CourseDetailView.as_view(),
         name='course_detail'
     ),
+    
 ]

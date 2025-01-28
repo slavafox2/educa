@@ -20,7 +20,7 @@ class Subject(models.Model):
 
 class Course(models.Model):
     owner = models.ForeignKey(
-    User,
+        User,
         related_name='courses_created',
         on_delete=models.CASCADE
     )
